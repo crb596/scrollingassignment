@@ -11,6 +11,7 @@ function init() {
 			name: "unloadingPerson",
 			callback: function() {
 				$("#person").show();
+				console.log("show");
 			}
 		})
 		// Line to 'description' element
@@ -18,6 +19,7 @@ function init() {
 			name: "loadingPerson",
 			callback: function() {
 				$("#person").removeAttr("style").hide();
+				console.log("hide");
 			}
 		})
 		// Line to 'description' element
