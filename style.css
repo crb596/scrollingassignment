@@ -1,8 +1,8 @@
 body{
 	background-image: url('plane.svg');
 	background-repeat: no-repeat;
-	background-attachment: fixed; 
-	background-size: cover;
+	background-attachment: fixed;
+	background-position: center; 
 }
 .person{
 	height:200px;
