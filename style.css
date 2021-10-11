@@ -6,8 +6,8 @@ body{
 }
 .person{
 	position:absolute;
-	height:400px;
-	top: 200px;
+	height:200px;
+	top: 300px;
 	left: 300px;
 }
 .tree1{
