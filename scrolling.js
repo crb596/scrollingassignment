@@ -23,9 +23,9 @@ function init() {
 			}
 		})
 		// Line to 'description' element
-		.lineTo(4500, 410, {name: "trees"})
+		.lineTo(4200, 410, {name: "trees"})
 		// Arc down and line to 'syntax'
-		.arc(4500, 10, 400, Math.PI/2, Math.PI/4, true)
+		.arc(4200, 10, 400, Math.PI/2, 0, true)
 		// Rotate in place
 		// .rotate(3*Math.PI/2, {
 		// 	name: "rotations-rotated"
