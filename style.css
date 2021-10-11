@@ -5,16 +5,19 @@ body{
 	background-position: center; 
 }
 .person{
+	position:absolute;
 	height:400px;
 	top: 200px;
 	left: 300px;
 }
 .tree1{
+	position:absolute;
 	height:500px;
 	top: 200px;
 	left: 400px;
 }
 .tree2{
+	position:absolute;
 	height:500px;
 	top: 200px;
 	left: 600px;
