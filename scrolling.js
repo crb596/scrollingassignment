@@ -10,7 +10,6 @@ function init() {
 		.lineTo(200, 410, {
 			name: "loadingPerson",
 			callback: function() {
-				console.log("hide");
 				$("#person").show();
 				return;
 			}
@@ -19,7 +18,6 @@ function init() {
 		.lineTo(230, 410, {
 			name: "loadingPerson",
 			callback: function() {
-				console.log("hide3");
 				$("#person").hide();
 				return;
 			}
