@@ -9,7 +9,7 @@ function init() {
 		// Line to 'description' element
 		.lineTo(200, 410, {name: "loadingPerson"})
 		// Line to 'description' element
-		.lineTo(1200, 410, {name: "trees"})
+		.lineTo(2200, 410, {name: "trees"})
 		// Arc down and line to 'syntax'
 		.arc(200, 1200, 400, -Math.PI/2, Math.PI/2, true)
 		// Arc up while rotating
