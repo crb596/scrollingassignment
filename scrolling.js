@@ -7,7 +7,7 @@ function init() {
 		// Move to 'start' element
 		.moveTo(100, 190, {name: "start"})
 		// Line to 'description' element
-		.lineTo(200, 410, {
+		.lineTo(200, 400, {
 			name: "unloadingPerson",
 			callback: function() {
 				$("#person").show();
