@@ -45,3 +45,11 @@ body{
 .tree10{
 	left: 4050px;
 }
+.cloud{
+	position:absolute;
+	height:400px;
+}
+.cloud1{
+	left: 5000px;
+	top:300px;
+}
