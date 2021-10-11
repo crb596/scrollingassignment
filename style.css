@@ -81,3 +81,9 @@ body{
 	left: 5400px;
 	top: 20px;
 }
+.endtext{
+	left: 5400px;
+	top: 200px;
+	position:absolute;
+	height:600px;
+}
