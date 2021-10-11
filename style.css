@@ -50,6 +50,34 @@ body{
 	height:600px;
 }
 .cloud1{
-	left: 5000px;
+	left: 4000px;
+	top: 0px;
+}
+.cloud2{
+	left: 4300px;
+	top: 10px;
+}
+.cloud3{
+	left: 4400px;
 	top: 100px;
+}
+.cloud4{
+	left: 4700px;
+	top: 40px;
+}
+.cloud5{
+	left: 4900px;
+	top: 80px;
+}
+.cloud6{
+	left: 5000px;
+	top: 110px;
+}
+.cloud7{
+	left: 5300px;
+	top: 70px;
+}
+.cloud8{
+	left: 5400px;
+	top: 20px;
 }
