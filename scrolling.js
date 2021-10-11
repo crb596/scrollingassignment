@@ -16,7 +16,14 @@ function init() {
 			}
 		})
 		// Line to 'description' element
-		.lineTo(220, 410, {name: "test"})
+		.lineTo(230, 410, {
+			name: "loadingPerson",
+			callback: function() {
+				console.log("hide3");
+				$("#person").show();
+				return;
+			}
+		})
 		// Line to 'description' element
 		.lineTo(4500, 410, {name: "trees"})
 		// Arc down and line to 'syntax'
