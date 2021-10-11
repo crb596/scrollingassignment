@@ -47,9 +47,9 @@ body{
 }
 .cloud{
 	position:absolute;
-	height:400px;
+	height:600px;
 }
 .cloud1{
 	left: 5000px;
-	top:300px;
+	top: 100px;
 }
