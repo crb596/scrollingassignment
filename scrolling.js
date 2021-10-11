@@ -12,6 +12,7 @@ function init() {
 			callback: function() {
 				$("#person").show();
 				console.log("show");
+				return;
 			}
 		})
 		// Line to 'description' element
@@ -20,6 +21,7 @@ function init() {
 			callback: function() {
 				console.log("hide");
 				$("#person").hide();
+				return;
 			}
 		})
 		// Line to 'description' element
