@@ -5,9 +5,9 @@ function init() {
 
 	$.fn.scrollPath("getPath")
 		// Move to 'start' element
-		.moveTo(400, 50, {name: "person"})
+		.moveTo(100, 200, {name: "person"})
 		// Line to 'description' element
-		.lineTo(400, 800, {name: "tree1"})
+		.lineTo(800, 200, {name: "tree1"})
 		// Arc down and line to 'syntax'
 		.arc(200, 1200, 400, -Math.PI/2, Math.PI/2, true)
 		// Arc up while rotating
