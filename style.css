@@ -55,7 +55,7 @@ body{
 }
 .cloud2{
 	left: 4300px;
-	top: 10px;
+	top: -10px;
 }
 .cloud3{
 	left: 4400px;
@@ -71,15 +71,15 @@ body{
 }
 .cloud6{
 	left: 5000px;
-	top: 110px;
+	top: -110px;
 }
 .cloud7{
 	left: 5300px;
-	top: 70px;
+	top: -70px;
 }
 .cloud8{
 	left: 5400px;
-	top: 20px;
+	top: -20px;
 }
 .endtext{
 	left: 5400px;
