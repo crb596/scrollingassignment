@@ -27,13 +27,13 @@ function init() {
 		// Line to 'description' element
 		.lineTo(4500, 410, {name: "trees"})
 		// Arc down and line to 'syntax'
-		.arc(4500, 200, 200, Math.PI/2, -Math.PI/4, false)
+		.arc(4500, 200, 300, Math.PI/2, -Math.PI/4, true)
 		// Rotate in place
 		// .rotate(3*Math.PI/2, {
 		// 	name: "rotations-rotated"
 		// })
 		// // Continue upwards to 'source'
-		.lineTo(5000, 200, {
+		.lineTo(6000, 100, {
 			name: "source"
 		})
 		// // Small arc downwards
