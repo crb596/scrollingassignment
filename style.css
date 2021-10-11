@@ -12,8 +12,8 @@ body{
 }
 .tree{
 	position:absolute;
-	height:500px;
-	top: 500px;
+	height:300px;
+	top: 400px;
 }
 .tree1{
 	left: 1500px;
@@ -25,44 +25,23 @@ body{
 	left: 2300px;
 }
 .tree4{
-	position:absolute;
-	height:500px;
-	top: 500px;
 	left: 2600px;
 }
 .tree5{
-	position:absolute;
-	height:500px;
-	top: 500px;
 	left: 2900px;
 }
 .tree6{
-	position:absolute;
-	height:500px;
-	top: 500px;
 	left: 3150px;
 }
 .tree7{
-	position:absolute;
-	height:500px;
-	top: 500px;
 	left: 3400px;
 }
 .tree8{
-	position:absolute;
-	height:500px;
-	top: 500px;
 	left: 3650px;
 }
 .tree9{
-	position:absolute;
-	height:500px;
-	top: 500px;
 	left: 3850px;
 }
 .tree10{
-	position:absolute;
-	height:500px;
-	top: 500px;
 	left: 4050px;
 }
