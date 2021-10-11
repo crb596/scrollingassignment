@@ -6,19 +6,16 @@ body{
 }
 .person{
 	height:400px;
-	position: fixed;
 	top: 200px;
 	left: 300px;
 }
 .tree1{
 	height:500px;
-	position: fixed;
 	top: 200px;
 	left: 400px;
 }
 .tree2{
 	height:500px;
-	position: fixed;
 	top: 200px;
 	left: 600px;
 }
