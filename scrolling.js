@@ -27,13 +27,7 @@ function init() {
 		// Line to 'description' element
 		.lineTo(3500, 410, {name: "trees"})
 		// Arc down and line to 'syntax'
-		.arc(200, 1200, 400, -Math.PI/2, Math.PI/2, true)
-		// Arc up while rotating
-		.arc(1800, 1000, 600, Math.PI/2, 0, true, {rotate: Math.PI/2 })
-		// Line to 'rotations'
-		.lineTo(2400, 750, {
-			name: "tree2"
-		})
+		.arc(3500, 200, 200, Math.PI/2, Math.PI/4, false)
 		// Rotate in place
 		// .rotate(3*Math.PI/2, {
 		// 	name: "rotations-rotated"
