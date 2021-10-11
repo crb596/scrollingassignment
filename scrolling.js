@@ -11,7 +11,7 @@ function init() {
 			name: "loadingPerson",
 			callback: function() {
 				console.log("hide");
-				$("#person").hide();
+				$("#person").show();
 				return;
 			}
 		})
@@ -20,7 +20,7 @@ function init() {
 			name: "loadingPerson",
 			callback: function() {
 				console.log("hide3");
-				$("#person").show();
+				$("#person").hide();
 				return;
 			}
 		})
