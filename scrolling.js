@@ -7,7 +7,7 @@ function init() {
 		// Move to 'start' element
 		.moveTo(100, 190, {name: "start"})
 		// Line to 'description' element
-		.lineTo(300, 400, {name: "loadingPerson"})
+		.lineTo(200, 400, {name: "loadingPerson"})
 		// Line to 'description' element
 		.lineTo(800, 400, {name: "loadingPerson"})
 		// Arc down and line to 'syntax'
