@@ -10,14 +10,14 @@ function init() {
 		.lineTo(200, 410, {
 			name: "unloadingPerson",
 			callback: function() {
-				${#person}.display="block";
+				$("#person").display="block";
 			}
 		})
 		// Line to 'description' element
 		.lineTo(200, 410, {
 			name: "loadingPerson",
 			callback: function() {
-				${#person}.display="none";
+				$("#person").display="none";
 			}
 		})
 		// Line to 'description' element
