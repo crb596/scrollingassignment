@@ -8,6 +8,8 @@ function init() {
 		.moveTo(100, 190, {name: "start"})
 		// Line to 'description' element
 		.lineTo(300, 400, {name: "loadingPerson"})
+		// Line to 'description' element
+		.lineTo(800, 400, {name: "loadingPerson"})
 		// Arc down and line to 'syntax'
 		.arc(200, 1200, 400, -Math.PI/2, Math.PI/2, true)
 		// Arc up while rotating
