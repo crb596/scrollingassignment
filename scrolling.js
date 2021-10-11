@@ -7,7 +7,19 @@ function init() {
 		// Move to 'start' element
 		.moveTo(100, 190, {name: "start"})
 		// Line to 'description' element
-		.lineTo(200, 410, {name: "loadingPerson"})
+		.lineTo(200, 410, {
+			name: "unloadingPerson",
+			callback: function() {
+				${#person}.display="block";
+			}
+		})
+		// Line to 'description' element
+		.lineTo(200, 410, {
+			name: "loadingPerson",
+			callback: function() {
+				${#person}.display="none";
+			}
+		})
 		// Line to 'description' element
 		.lineTo(2200, 410, {name: "trees"})
 		// Arc down and line to 'syntax'
