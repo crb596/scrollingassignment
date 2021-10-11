@@ -31,7 +31,7 @@ function init() {
 		// 	name: "rotations-rotated"
 		// })
 		// // Continue upwards to 'source'
-		.lineTo(7000, 10, {
+		.lineTo(6000, 10, {
 			name: "end"
 		})
 		// // Small arc downwards
