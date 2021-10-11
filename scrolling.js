@@ -20,7 +20,7 @@ function init() {
 		// Line to 'description' element
 		.lineTo(4500, 410, {name: "trees"})
 		// Arc down and line to 'syntax'
-		.arc(4500, 110, 300, 0, -Math.PI/4, true)
+		.arc(4500, 410, 300, 0, -Math.PI/4, true)
 		// Rotate in place
 		// .rotate(3*Math.PI/2, {
 		// 	name: "rotations-rotated"
