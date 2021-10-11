@@ -18,8 +18,8 @@ function init() {
 		.lineTo(220, 410, {
 			name: "loadingPerson",
 			callback: function() {
-				$("#person").hide();
 				console.log("hide");
+				$("#person").hide();
 			}
 		})
 		// Line to 'description' element
