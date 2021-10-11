@@ -18,7 +18,7 @@ function init() {
 		.lineTo(200, 410, {
 			name: "loadingPerson",
 			callback: function() {
-				$("#person").removeAttr("style").hide();
+				$("#person").hide();
 				console.log("hide");
 			}
 		})
